@@ -4,4 +4,4 @@
     )
 }}
 
-Select * from RAW.GLOBALMART.ORDERS;
+Select * from RAW.GLOBALMART.ORDERS
