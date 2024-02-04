@@ -18,7 +18,6 @@ p.category,
 p.productname,
 p.subcategory,
 ordersellingprice - ordercostprice as orderprofit,
-{{markup('ordersellingprice','ordercostprice')}} as markup,
 d.delivery_team
 from {{ ref('raw_orders') }} as o
 left join {{ ref('raw_customer') }} as c
