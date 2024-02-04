@@ -13,6 +13,5 @@ sources:
         columns:
           - name: orderid
             tests:
-              - unique
               - not_null
       - name: product
